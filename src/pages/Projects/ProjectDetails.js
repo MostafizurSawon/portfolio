@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Container, Col, Row, Image } from 'react-bootstrap';
+import { Card, Container, Col, Row, Image, Carousel } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 // import './Projectdetails.css';
+
 
 const Projectdetails = () => {
     const { projectId } = useParams();
@@ -28,8 +29,39 @@ const Projectdetails = () => {
         <Card className="custom-card border-0 ">
 
         <Row>
-            <Col sm={7} className="d-flex justify-content-center align-items-center">
-            <Image className="p-3" src={singleData?.img} fluid />
+        <Col sm={7} className="d-flex justify-content-center align-items-center">
+        <Carousel fade>
+        <Carousel.Item>
+         <img
+            className="d-block w-100"
+            src={banner}
+            alt="First slide"
+            />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+            className="d-block w-100"
+            src={banner2}
+            alt="Second slide"
+            />
+
+            <Carousel.Caption>
+            <h1 className="global-text">Collection of <span className="banner-span">Outdoor Toys</span> </h1>
+            </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+            <img
+            className="d-block w-100"
+            src={banner3}
+            alt="Third slide"
+            />
+
+            <Carousel.Caption>
+            <h1 className="global-text">Best <span className="banner-span">Collections</span> </h1>
+            </Carousel.Caption>
+            </Carousel.Item>
+            </Carousel>
+
             </Col>
             <Col className="my-3 d-flex align-items-center" sm={5}>
                 <div>
