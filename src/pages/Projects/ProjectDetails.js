@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Container, Col, Row, Image, Carousel } from 'react-bootstrap';
+import { Button, Card, Container, Col, Row, Image, Carousel } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
-// import './Projectdetails.css';
+import './Project.css';
 
 
 const Projectdetails = () => {
@@ -25,7 +25,7 @@ const Projectdetails = () => {
        setSingleData(showDetails)
     }, [details]);
     return (
-        <Col>
+        <Col className="whole">
         <Card className="custom-card border-0 ">
 
         <Row>
@@ -33,15 +33,15 @@ const Projectdetails = () => {
         <Carousel fade>
         <Carousel.Item>
          <img
-            className="d-block w-100"
-            src={banner}
+            className="d-block w-100 h-100"
+            src={singleData?.img1}
             alt="First slide"
             />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-            className="d-block w-100"
-            src={banner2}
+            className="d-block w-100 h-100"
+            src={singleData?.img2}
             alt="Second slide"
             />
 
@@ -51,8 +51,8 @@ const Projectdetails = () => {
             </Carousel.Item>
             <Carousel.Item>
             <img
-            className="d-block w-100"
-            src={banner3}
+            className="d-block w-100 h-100"
+            src={singleData?.img3}
             alt="Third slide"
             />
 
@@ -67,16 +67,28 @@ const Projectdetails = () => {
                 <div>
                 <h4 className="text-dark mb-5">
                    Name : {singleData?.name}</h4>
-                <h4 className="text-dark mb-5">
-                   Country : {singleData?.country}</h4>
+                <div>
+                    <a href={singleData?.live}>
+                        <Button className="banner-button text-light my-2" variant="success" size="lg">Live site</Button>
+                    </a>
+                    <br />
+                    <a href={singleData?.gitClient}>
+                    <Button className="banner-button me-2" variant="info" size="lg">Github Client Side code</Button>
+                        
+                    </a>
+                    <a href={singleData?.gitServer}>
+                    <Button className="banner-button text-dark" variant="info" size="lg">Github Server Side code</Button>
+                        
+                    </a>
+                </div>
                     
-                <h5 className="mb-5">Experience : {singleData?.experience}</h5>
+                <h5 className="mb-5">Description : {singleData?.description}</h5>
                 <Link to="/home">
-                <button  className=" custom-btnn"> <i className="fas fa-chevron-circle-left"></i> Home</button>
+                <Button className="banner-button text-dark" variant="info" size="lg"> <i className="fas fa-chevron-circle-left"></i> Home</Button>
                 </Link>
                 </div>
                 
-            </Col>
+            </Col> 
         </Row>
         </Card>
         </Col>
