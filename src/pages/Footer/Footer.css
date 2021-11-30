@@ -1,0 +1,33 @@
+.footer-half {
+  background-image: url(../../images/e.gif);
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.footer-border {
+  padding-bottom: 3px;
+  border-bottom: 2px solid rgb(194, 221, 96);
+  width: 20%;
+}
+
+/* a {
+  text-decoration: none;
+  color: white;
+} */
+
+.footer-icon:hover {
+  color: rgb(77, 226, 17);
+}
+/* a:hover {
+  color: greenyellow;
+} */
+
+.social-icon {
+  color: white;
+  font-size: 22px;
+}
+
+.fab:hover {
+  color: rgb(20, 218, 30);
+  cursor: pointer;
+}

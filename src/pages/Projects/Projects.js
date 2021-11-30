@@ -10,7 +10,7 @@ const Projects = () => {
         .then(data=>setProjects(data))
     }, []);
     return (
-        <div>
+        <div className="my-5">
             <div className="bg-dark">
                 <h2 className="text-center text-light py-3">My projects</h2>
             </div>
