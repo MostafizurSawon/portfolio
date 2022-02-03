@@ -25,19 +25,19 @@ const Projectdetails = () => {
        setSingleData(showDetails)
     }, [details]);
     return (
-        <Col className="whole">
-        <Card className="custom-card border-0 ">
-
-        <Row>
-        <Col sm={7} className="d-flex justify-content-center align-items-center">
+        <Row xs={1} md={1} className="my-2 d-flex justify-content-center align-items-center whole w-100 border-0 px-2 mx-3 mx-auto text-center">
+        <Col className="d-flex my-4 justify-content-center align-items-center details-img">
         <Carousel fade>
         <Carousel.Item>
-         <img
-            className="d-block w-100 h-100"
+        <div className="d-flex justify-content-center align-items-center">
+            <img
+            className="d-block w-100 h-100 p-5"
             src={singleData?.img1}
             alt="First slide"
             />
-                </Carousel.Item>
+        </div>
+         
+        </Carousel.Item>
                 <Carousel.Item>
                     <img
             className="d-block w-100 h-100"
@@ -45,9 +45,9 @@ const Projectdetails = () => {
             alt="Second slide"
             />
 
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
             <h1 className="global-text">Collection of <span className="banner-span">Outdoor Toys</span> </h1>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
             </Carousel.Item>
             <Carousel.Item>
             <img
@@ -56,42 +56,46 @@ const Projectdetails = () => {
             alt="Third slide"
             />
 
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
             <h1 className="global-text">Best <span className="banner-span">Collections</span> </h1>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
             </Carousel.Item>
             </Carousel>
 
             </Col>
-            <Col className="my-3 d-flex align-items-center" sm={5}>
+            <Col className="my-3 d-flex align-items-center" >
                 <div>
                 <h4 className="text-dark mb-5">
                    Name : {singleData?.name}</h4>
                 <div>
                     <a href={singleData?.live}>
-                        <Button className="banner-button text-light my-2" variant="success" size="lg">Live site</Button>
+                        <Button className="my-2 me-2" variant="info" size="lg"><i class="fab fa-red-river me-2"></i>Live site</Button>
                     </a>
-                    <br />
                     <a href={singleData?.gitClient}>
-                    <Button className="banner-button me-2" variant="info" size="lg">Github Client Side code</Button>
+                    <Button className="me-2" variant="info" size="lg"><i className="fa fa-github me-2" aria-hidden="true"></i>Github Client Side code</Button>
                         
                     </a>
                     <a href={singleData?.gitServer}>
-                    <Button className="banner-button text-dark" variant="info" size="lg">Github Server Side code</Button>
+                    <Button className="" variant="info" size="lg"><i className="fa fa-github me-2" aria-hidden="true"></i>Github Server Side code</Button>
                         
                     </a>
+                    {/* <ul>
+                            <li><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i className="fa fa-github" aria-hidden="true"></i></a></li>
+                            </ul> */}
                 </div>
                     
-                <h5 className="mb-5">Description : {singleData?.description}</h5>
+                <h5 className="my-5 gap">Description : {singleData?.description}</h5>
                 <Link to="/home">
-                <Button className="banner-button text-dark" variant="info" size="lg"> <i className="fas fa-chevron-circle-left"></i> Home</Button>
+                <Button className="banner-button text-light" variant="success" size="lg"> <i className="fas fa-chevron-circle-left"></i> Home</Button>
                 </Link>
                 </div>
                 
             </Col> 
         </Row>
-        </Card>
-        </Col>
 
     );
 };

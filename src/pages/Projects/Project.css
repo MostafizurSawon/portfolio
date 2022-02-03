@@ -7,15 +7,15 @@
   /* top: 50%;
   left: 50%; */
   /* transform: translate(-50%, -50%); */
-  width: 360px;
-  height: 400px;
-  background: #000;
+  width: 500px;
+  height: auto;
+  background: rgb(255, 255, 255);
   overflow-x: hidden;
 }
 .card .image {
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .card .image img {
   width: 100%;
@@ -32,7 +32,7 @@
   width: 70%; /*100%*/
   height: 100%;
   background: #1a8f0b;
-  transition: 0.5s;
+  /* transition: 0.5s; */
   transform-origin: left;
   transform: perspective(2000px) rotateY(-90deg);
 }
@@ -44,6 +44,7 @@
   text-align: center;
   background: #fff;
   position: absolute;
+  width: 100%;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -86,4 +87,20 @@
 }
 .card .details .center ul li a:hover {
   background: #ff3636;
+}
+
+.details-img {
+  max-height: 800px;
+}
+
+.gap {
+  line-height: 1.8;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: aliceblue;
 }

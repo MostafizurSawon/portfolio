@@ -39,7 +39,7 @@ const Header = () => {
                         </Nav.Link>
                         <Nav.Link>
                         <NavLink  className={(nav)=> (nav.isActive ?  "activeStyle" : "custom" )} to="">
-                        <a href="" target="_blank"><Button variant="success">My Resume</Button></a>
+                        <a href="https://drive.google.com/file/u/6/d/1oruHV2BfMVWSCA1J8POvleI4FGTVeUKJ/view?usp=sharing&usp=embed_facebook" target="_blank"><Button variant="success">My Resume</Button></a>
                         </NavLink>
                         </Nav.Link>
                         

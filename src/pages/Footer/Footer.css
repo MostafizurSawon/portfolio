@@ -10,11 +10,6 @@
   width: 20%;
 }
 
-/* a {
-  text-decoration: none;
-  color: white;
-} */
-
 .footer-icon:hover {
   color: rgb(77, 226, 17);
 }
@@ -23,11 +18,20 @@
 } */
 
 .social-icon {
-  color: white;
+  /* color: rgb(201, 11, 11); */
   font-size: 22px;
+}
+
+.fab {
+  color: green;
 }
 
 .fab:hover {
   color: rgb(20, 218, 30);
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(236, 22, 112);
 }
