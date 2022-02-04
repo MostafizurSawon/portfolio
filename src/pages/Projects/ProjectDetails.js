@@ -45,9 +45,9 @@ const Projectdetails = () => {
             alt="Second slide"
             />
 
-            {/* <Carousel.Caption>
+            <Carousel.Caption>
             <h1 className="global-text">Collection of <span className="banner-span">Outdoor Toys</span> </h1>
-            </Carousel.Caption> */}
+            </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
             <img
@@ -56,9 +56,9 @@ const Projectdetails = () => {
             alt="Third slide"
             />
 
-            {/* <Carousel.Caption>
+            <Carousel.Caption>
             <h1 className="global-text">Best <span className="banner-span">Collections</span> </h1>
-            </Carousel.Caption> */}
+            </Carousel.Caption>
             </Carousel.Item>
             </Carousel>
 

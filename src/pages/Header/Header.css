@@ -4,6 +4,9 @@
   padding: 15px;
   transition-duration: 0.3s;
 }
+.activeStyle:hover {
+  color: green;
+}
 
 .logo {
   border: 2px solid gray;

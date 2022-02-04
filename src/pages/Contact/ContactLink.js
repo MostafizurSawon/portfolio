@@ -10,7 +10,7 @@ const ContactLink = () => {
                 <Contact></Contact>
                 </Col>
                 <Col>
-                <img src="https://image.freepik.com/free-vector/illustration-e-mail-protection-concept-e-mail-envelope-with-file-document-attach-file-system-security-approved_1150-41788.jpg" alt="" />
+                <img className="w-100" src="https://image.freepik.com/free-vector/illustration-e-mail-protection-concept-e-mail-envelope-with-file-document-attach-file-system-security-approved_1150-41788.jpg" alt="" />
                 </Col>
             
         </Row>

@@ -10,7 +10,7 @@ const Projects = () => {
         .then(data=>setProjects(data))
     }, []);
     return (
-        <div className="my-5">
+        <div className="my-5 whole">
             <div className="bg-dark">
                 <h2 className="text-center text-light py-3">My projects</h2>
             </div>
@@ -41,7 +41,7 @@ const Projects = () => {
                         </div>
                         <div className="details">
                         <div className="center">
-                            <h1> <span>Name:</span> {project.name} </h1>
+                            <h4> Name: {project.name} </h4>
                             <p>
                            Short Description : {project.niche}
                             </p>

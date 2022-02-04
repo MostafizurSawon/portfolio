@@ -15,7 +15,7 @@ const About = () => {
                 
                 </Col>
                 <Col>
-                <img src="https://image.freepik.com/free-vector/digital-designers-team-drawing-with-pen-computer-monitor_74855-10586.jpg" alt="" />
+                <img className="w-100" src="https://image.freepik.com/free-vector/digital-designers-team-drawing-with-pen-computer-monitor_74855-10586.jpg" alt="" />
                 </Col>
             </Row>
         </div>
