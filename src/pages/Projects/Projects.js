@@ -12,14 +12,14 @@ const Projects = () => {
     }, []);
     return (
         <div id="fullstack" className="my-5 whole">
-            <div className="bg-dark">
+            {/* <div className="bg-dark">
                 <h2 className="text-center text-light py-3">My projects</h2>
-            </div>
+            </div> */}
             {/* <div className="my-5">
                 <ProjectBar></ProjectBar>
             </div> */}
             <Container>
-            <Row xs={1} md={2} className="my-2 d-flex justify-content-center align-items-center gx-5 gy-5">
+            <Row xs={1} md={2} className="mb-2 d-flex justify-content-center align-items-center gx-5 gy-5">
                 {
                     projects.map(project => (
                     <Col project={project} key={project.key}>

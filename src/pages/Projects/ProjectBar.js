@@ -1,38 +1,46 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
-import about from "./../../images/icons/developer-flat.gif";
-import home from "./../../images/icons/home.gif";
-import blog from "./../../images/icons/blogger-logotype.png";
-import contact from "./../../images/icons/phone.gif";
+import { Col, Nav, Row, Tab, Tabs } from 'react-bootstrap';
+import Projects from './Projects';
 
 const ProjectBar = () => {
     return (
-        <div className="d-flex justify-content-center align-items-center">
-            <Nav.Link>
-            <NavLink className={(nav)=> (nav.isActive ?  "activeStyle" : 'custom' )} to="/#fullstack">
-            <img className="me-2 pb-1" src={home} width="20px" alt="" />
-                        MERN Stack
-            </NavLink>
-            </Nav.Link>
-            <Nav.Link>
-            <NavLink className={(nav)=> (nav.isActive ?  "activeStyle" : 'custom' )} to="/blogs">
-            <img className="me-2 pb-1" src={blog} width="20px" alt="" />
-                        Blogs
-            </NavLink>
-            </Nav.Link>
-            <Nav.Link>
-            <NavLink  className={(nav)=> (nav.isActive ?  "activeStyle" : "custom" )} to="/about">
-            <img className="me-2 pb-1" src={about} width="35px" alt="" />
-            About
-            </NavLink>
-            </Nav.Link>
-            <Nav.Link>
-            <NavLink  className={(nav)=> (nav.isActive ?  "activeStyle" : "custom" )} to="/contact">
-            <img className="me-2 pb-1" src={contact} width="25px" alt="" />
-            Contact
-            </NavLink>
-            </Nav.Link>
+        <div className="">
+            <Tab.Container defaultActiveKey="second">
+        <Row>
+            <Col className="d-flex justify-content-center">
+            <Nav variant="tabs" className="flex">
+                <Nav.Item>
+                <Nav.Link eventKey="first">All</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                <Nav.Link eventKey="second">React</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                <Nav.Link eventKey="third">MERN stack</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                <Nav.Link eventKey="fourth">Web Design</Nav.Link>
+                </Nav.Item>
+            </Nav>
+            </Col>
+            <Col sm={12}>
+            <Tab.Content>
+                <Tab.Pane eventKey="first">
+                <Projects></Projects>
+                </Tab.Pane>
+                <Tab.Pane eventKey="second">
+                <Projects></Projects>
+                </Tab.Pane>
+                <Tab.Pane eventKey="third">
+                <Projects></Projects>
+                </Tab.Pane>
+                <Tab.Pane eventKey="fourth">
+                <Projects></Projects>
+                </Tab.Pane>
+            </Tab.Content>
+            </Col>
+        </Row>
+        </Tab.Container>
         </div>
     );
 };

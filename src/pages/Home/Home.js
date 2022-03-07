@@ -12,8 +12,8 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            {/* <ProjectBar></ProjectBar> */}
-            <Projects></Projects>
+            <ProjectBar></ProjectBar>
+            {/* <Projects></Projects> */}
             
             {/* <Demo></Demo> */}
             <Footer></Footer>
