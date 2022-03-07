@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Button, Row, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import ProjectBar from './ProjectBar';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
@@ -10,10 +11,13 @@ const Projects = () => {
         .then(data=>setProjects(data))
     }, []);
     return (
-        <div className="my-5 whole">
+        <div id="fullstack" className="my-5 whole">
             <div className="bg-dark">
                 <h2 className="text-center text-light py-3">My projects</h2>
             </div>
+            {/* <div className="my-5">
+                <ProjectBar></ProjectBar>
+            </div> */}
             <Container>
             <Row xs={1} md={2} className="my-2 d-flex justify-content-center align-items-center gx-5 gy-5">
                 {

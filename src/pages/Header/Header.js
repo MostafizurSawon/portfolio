@@ -2,10 +2,10 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
-import about from "./../../images/icons/animat-camp/road-trip/animat-road-trip-color.gif";
+import about from "./../../images/icons/developer-flat.gif";
 import home from "./../../images/icons/home.gif";
 import blog from "./../../images/icons/blogger-logotype.png";
-import contact from "./../../images/icons/social-media-big.gif";
+import contact from "./../../images/icons/phone.gif";
 
 const Header = () => {
     return (
@@ -41,7 +41,7 @@ const Header = () => {
                         </Nav.Link>
                         <Nav.Link>
                         <NavLink  className={(nav)=> (nav.isActive ?  "activeStyle" : "custom" )} to="/contact">
-                        <img className="me-2 pb-1" src={contact} width="30px" alt="" />
+                        <img className="me-2 pb-1" src={contact} width="25px" alt="" />
                         Contact
                         </NavLink>
                         </Nav.Link>

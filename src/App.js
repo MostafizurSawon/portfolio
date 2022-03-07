@@ -7,6 +7,7 @@ import Header from './pages/Header/Header';
 import About from './pages/About/About';
 import ProjectDetails from './pages/Projects/ProjectDetails';
 import ContactLink from './pages/Contact/ContactLink';
+import Projects from './pages/Projects/Projects';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
           <Route path="/about" element={<About></About>}>
           </Route>
           <Route path="/contact" element={<ContactLink></ContactLink>}>
+          </Route>
+          <Route path="/#fullstack" element={<Projects></Projects>}>
           </Route>
         </Routes>
       </Router>
