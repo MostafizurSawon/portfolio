@@ -6,11 +6,14 @@ import Header from '../Header/Header';
 import Projects from '../Projects/Projects';
 import Demo from './../Demo/Demo';
 
+
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
+            
             <Projects></Projects>
+            
             {/* <Demo></Demo> */}
             <Footer></Footer>
         </div>

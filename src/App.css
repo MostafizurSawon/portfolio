@@ -1,6 +1,7 @@
-/* body {
-  overflow-x: hidden;
-} */
+body {
+  font-family: "Bungee", cursive;
+  /* overflow-x: hidden; */
+}
 
 /* a {
   text-decoration: none;
