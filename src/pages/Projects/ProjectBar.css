@@ -1,0 +1,39 @@
+.tab-change {
+  color: black !important;
+  cursor: pointer;
+}
+
+.tab {
+  color: black;
+  border: 1px solid gray !important;
+  /* border: 0 !important; */
+  margin: 0 5px;
+}
+
+/* .tab-style {
+  color: green !important;
+} */
+
+.nav-tabs .nav-link {
+  margin-bottom: -1 !important;
+  background: 0 0;
+  border: 0 !important;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  /* box-shadow: 6px 4px #999; */
+}
+
+.nav-tabs {
+  border-bottom: 0 !important;
+}
+
+.nav-link {
+  color: black;
+}
+
+.active {
+  color: rgb(11, 204, 11) !important;
+  border-color: white !important;
+  box-shadow: 6px 4px #999;
+  border-radius: 17px 4px;
+}

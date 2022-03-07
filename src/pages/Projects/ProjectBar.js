@@ -1,25 +1,27 @@
 import React from 'react';
-import { Col, Nav, Row, Tab, Tabs } from 'react-bootstrap';
+import { Col, Nav, Row, Tab } from 'react-bootstrap';
 import Projects from './Projects';
+import reactLogo from "./../../images/icons/physics.gif";
+import "./ProjectBar.css"
 
 const ProjectBar = () => {
     return (
-        <div className="">
-            <Tab.Container defaultActiveKey="second">
+        <div className="mt-5">
+            <Tab.Container className="tab-style" defaultActiveKey="first">
         <Row>
             <Col className="d-flex justify-content-center">
-            <Nav variant="tabs" className="flex">
-                <Nav.Item>
-                <Nav.Link eventKey="first">All</Nav.Link>
+            <Nav variant="tabs" className="tab-change">
+                <Nav.Item className="tab">
+                <Nav.Link eventKey="first"><img className="me-1" src={reactLogo} width="26px" alt="" />ALL Project</Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
-                <Nav.Link eventKey="second">React</Nav.Link>
+                <Nav.Item className="tab">
+                <Nav.Link eventKey="second"><img className="me-1" src={reactLogo} width="26px" alt="" />React</Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
-                <Nav.Link eventKey="third">MERN stack</Nav.Link>
+                <Nav.Item className="tab">
+                <Nav.Link eventKey="third"><img className="me-1" src={reactLogo} width="26px" alt="" />MERN stack</Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
-                <Nav.Link eventKey="fourth">Web Design</Nav.Link>
+                <Nav.Item className="tab">
+                <Nav.Link eventKey="fourth"><img className="me-1" src={reactLogo} width="26px" alt="" />Web Design</Nav.Link>
                 </Nav.Item>
             </Nav>
             </Col>
