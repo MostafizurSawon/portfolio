@@ -1,0 +1,38 @@
+.back {
+  background-image: url(../../images/project.gif);
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.skill {
+  border-bottom: 2px solid gray;
+  /* width: 100%; */
+}
+
+li {
+  list-style-type: none;
+}
+
+.skill_first {
+  border: 0;
+  font-size: 1rem;
+  /* background-color: green; */
+  outline: 2px solid rgb(161, 158, 158);
+  color: rgb(17, 17, 17);
+  padding: 6px 4px;
+  border-radius: 17px 4px;
+  box-shadow: 6px 4px #999;
+}
+
+.skill_first:hover {
+  color: white;
+  outline: none;
+  background-color: rgb(7, 182, 7);
+  box-shadow: 5px #999;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+}
+
+.icon_correction {
+  font-size: 1.4rem;
+}

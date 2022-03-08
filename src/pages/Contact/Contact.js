@@ -49,6 +49,7 @@ const Contact = () => {
            
             <input className="btn btn-success" type="submit" value="Send" />
         </form>
+        
     </Container>
   );
 };

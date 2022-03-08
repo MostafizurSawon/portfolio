@@ -1,3 +1,8 @@
+.projectbar {
+  overflow-x: hidden;
+  /* background-image: url(../../images/project.gif); */
+}
+
 .tab-change {
   color: black !important;
   cursor: pointer;
@@ -5,7 +10,7 @@
 
 .tab {
   color: black;
-  border: 1px solid gray !important;
+  border: 1px solid gray !important; /* border around design  */
   /* border: 0 !important; */
   margin: 0 5px;
 }
@@ -16,11 +21,12 @@
 
 .nav-tabs .nav-link {
   margin-bottom: -1 !important;
-  background: 0 0;
+  /* background: 0 0 !important; */
   border: 0 !important;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-  /* box-shadow: 6px 4px #999; */
+
+  box-shadow: 6px 4px #999;
+  /* border-top-left-radius: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important; */
 }
 
 .nav-tabs {
@@ -33,7 +39,7 @@
 
 .active {
   color: rgb(11, 204, 11) !important;
-  border-color: white !important;
-  box-shadow: 6px 4px #999;
+  /* border-color: white !important; */
+  /* box-shadow: 6px 4px rgb(7, 153, 31); */
   border-radius: 17px 4px;
 }

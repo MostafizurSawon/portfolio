@@ -3,7 +3,8 @@ import { Row, Col } from 'react-bootstrap';
 import Contact from '../Contact/Contact';
 import './Footer.css';
 import Social from "./Social";
-import socialIcon from "./../../images/icons/social-media-big.gif"
+import socialIcon from "./../../images/icons/social-media-big.gif";
+import logoMail from "./../../images/icons/icons8-gmail-logo.gif";
 
 const Footer = () => {
     return (
@@ -13,6 +14,13 @@ const Footer = () => {
             <Col className="" sm= {6}>
                 <h3 className="text-center bg-light py-3">Contact Me</h3>
                 <Contact></Contact>
+                <h3 className="mb-2">
+                    Or, direct mail me  
+                    <a className="resume_button ms-2" href="mailto:mostafizur1102@gmail.com">
+                    <img className="me-1 pb-2" src={logoMail} width="20px" alt="" />
+                    Here
+                    </a> 
+                </h3>
             </Col>
             
             

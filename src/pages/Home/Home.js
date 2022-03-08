@@ -6,18 +6,24 @@ import Header from '../Header/Header';
 import ProjectBar from '../Projects/ProjectBar';
 import Projects from '../Projects/Projects';
 import Demo from './../Demo/Demo';
+import Skill from './Skill';
+import "./Skill.css";
 
 
 const Home = () => {
     return (
-        <div>
+        <>
+        <div className="home">
             <Banner></Banner>
+            <Skill></Skill>
             <ProjectBar></ProjectBar>
             {/* <Projects></Projects> */}
             
             {/* <Demo></Demo> */}
+            </div>
             <Footer></Footer>
-        </div>
+        
+        </>
     );
 };
 
