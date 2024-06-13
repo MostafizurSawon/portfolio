@@ -45,23 +45,30 @@ const Skill = () => {
             </Col>
             <Col className="">
                 <li className="skill_first d-flex justify-content-center align-items-center">
+                    {/* <img className="me-1" src={logohtml} width="30px" alt="" /> */}
+                    {/* <i className="fa-brands fa-bootstrap me-1 icon_correction"></i> */}
+                    Tailwind CSS
+                </li>
+            </Col>
+            <Col className="">
+                <li className="skill_first d-flex justify-content-center align-items-center">
                     <img className="me-1" src={logoJavaScript} width="30px" alt="" />
                     JavaScript
                 </li>
             </Col>
-            <Col className="">
+            {/* <Col className="">
                 <li className="skill_first d-flex justify-content-center align-items-center">
                     <img className="me-1" src={logoJavaScript} width="30px" alt="" />
                     <i class="fa-brands fa-js-square me-1 icon_correction"></i>
                     Es6
                 </li>
-            </Col>
-            <Col className="">
+            </Col> */}
+            {/* <Col className="">
                 <li className="skill_first d-flex justify-content-center align-items-center">
                     <img className="me-1" src={logoJavaScript} width="30px" alt="" />
                     Restfull Api
                 </li>
-            </Col>
+            </Col> */}
             <Col className="">
                 <li className="skill_first d-flex justify-content-center align-items-center">
                     <img className="me-1" src={logoJavaScript} width="30px" alt="" />
@@ -74,49 +81,47 @@ const Skill = () => {
                     React
                 </li>
             </Col>
-            <Col className="">
+            {/* <Col className="">
                 <li className="skill_first d-flex justify-content-center align-items-center">
                     <img className="me-1" src={logoReact} width="20px" alt="" />
                     <i class="fa-brands fa-bootstrap me-1 icon_correction"></i>
                     React BootStrap
                 </li>
-            </Col>
-            <Col className="">
+            </Col> */}
+            {/* <Col className="">
                 <li className="skill_first d-flex justify-content-center align-items-center">
                     <img className="me-1" src={logoReact} width="24px" alt="" />
                     Material Ui (Basic)
                 </li>
-            </Col>
-            <Col className="">
+            </Col> */}
+            {/* <Col className="">
                 <li className="skill_first d-flex justify-content-center align-items-center">
                     <img className="me-1" src={logoReact2} width="30px" alt="" />
                     React Router
                 </li>
-            </Col>
-            <Col className="">
+            </Col> */}
+            {/* <Col className="">
                 <li className="skill_first d-flex justify-content-center align-items-center">
                     <img className="me-1" src={logoSettings} width="30px" alt="" />
                    Firebase Authenticate
                 </li>
-            </Col>
-            <Col className="">
+            </Col> */}
+            {/* <Col className="">
                 <li className="skill_first d-flex justify-content-center align-items-center">
-                    {/* <img className="me-1" src={logohtml} width="30px" alt="" /> */}
                     MongoDB (Basic)
                 </li>
-            </Col>
-            <Col className="">
+            </Col> */}
+            {/* <Col className="">
                 <li className="skill_first d-flex justify-content-center align-items-center">
-                    {/* <img className="me-1" src={logohtml} width="30px" alt="" /> */}
                     Node.js (Basic)
                 </li>
-            </Col>
-            <Col className="">
+            </Col> */}
+            {/* <Col className="">
                 <li className="skill_first d-flex justify-content-center align-items-center">
-                    {/* <img className="me-1" src={logohtml} width="30px" alt="" /> */}
+                    
                     Express.js
                 </li>
-            </Col>
+            </Col> */}
             <Col className="">
                 <li className="skill_first d-flex justify-content-center align-items-center">
                     <img className="me-1" src={logogit} width="30px" alt="" />
@@ -139,6 +144,36 @@ const Skill = () => {
                 <li className="skill_first d-flex justify-content-center align-items-center">
                     {/* <img className="me-1" src={logohtml} width="30px" alt="" /> */}
                     Netlify Deploy
+                </li>
+            </Col>
+            <Col className="">
+                <li className="skill_first d-flex justify-content-center align-items-center">
+                    {/* <img className="me-1" src={logochrome} width="30px" alt="" /> */}
+                    SQL
+                </li>
+            </Col>
+            <Col className="">
+                <li className="skill_first d-flex justify-content-center align-items-center">
+                    {/* <img className="me-1" src={logochrome} width="30px" alt="" /> */}
+                    OOP
+                </li>
+            </Col>
+            <Col className="">
+                <li className="skill_first d-flex justify-content-center align-items-center">
+                    {/* <img className="me-1" src={logochrome} width="30px" alt="" /> */}
+                    Python
+                </li>
+            </Col>
+            <Col className="">
+                <li className="skill_first d-flex justify-content-center align-items-center">
+                    {/* <img className="me-1" src={logochrome} width="30px" alt="" /> */}
+                    Django
+                </li>
+            </Col>
+            <Col className="">
+                <li className="skill_first d-flex justify-content-center align-items-center">
+                    {/* <img className="me-1" src={logochrome} width="30px" alt="" /> */}
+                    Postgresql
                 </li>
             </Col>
         </Row>

@@ -7,7 +7,7 @@
 .activeStyle {
   text-decoration: none;
   color: rgb(12, 201, 12);
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid rgb(20, 220, 107);
   padding: 15px;
   transition-duration: 0.3s;
 }

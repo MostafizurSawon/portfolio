@@ -4,6 +4,7 @@ import Projects from './Projects';
 import reactLogo from "./../../images/icons/physics.gif";
 import "./ProjectBar.css"
 import Design from './Design';
+import Fullstack from './Fullstack';
 
 const ProjectBar = () => {
     return (
@@ -18,22 +19,22 @@ const ProjectBar = () => {
                         ALL Project
                         </Nav.Link>
                     </Nav.Item>
-                    <Nav.Item className="tab">
+                    {/* <Nav.Item className="tab">
                         <Nav.Link eventKey="second">
                         <img className="me-1" src={reactLogo} width="26px" alt="" />
                         React
+                        </Nav.Link>
+                    </Nav.Item> */}
+                    <Nav.Item className="tab">
+                        <Nav.Link eventKey="fourth">
+                        <img className="me-1" src={reactLogo} width="26px" alt="" />
+                        Frontend
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item className="tab">
                         <Nav.Link eventKey="third">
                         <img className="me-1" src={reactLogo} width="26px" alt="" />
-                        MERN stack
-                        </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item className="tab">
-                        <Nav.Link eventKey="fourth">
-                        <img className="me-1" src={reactLogo} width="26px" alt="" />
-                        Web Design
+                        Full stack (Django)
                         </Nav.Link>
                     </Nav.Item>
                 </Nav>
@@ -43,11 +44,11 @@ const ProjectBar = () => {
                     <Tab.Pane eventKey="first">
                     <Projects></Projects>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="second">
+                    {/* <Tab.Pane eventKey="second">
                     <Projects></Projects>
-                    </Tab.Pane>
+                    </Tab.Pane> */}
                     <Tab.Pane eventKey="third">
-                    <Projects></Projects>
+                    <Fullstack></Fullstack>
                     </Tab.Pane>
                     <Tab.Pane eventKey="fourth">
                     <Design></Design>

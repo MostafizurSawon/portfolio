@@ -28,7 +28,7 @@ const Footer = () => {
             <h2 className="text-center my-3">Find Me on Social Media <img className="ms-1 pb-1" src={socialIcon} width="55px" alt="" /></h2>
             
                 <Social></Social>
-                <h6 className="text-center mt-3">© Copyright by Mostafizur 2022</h6>
+                <h6 className="text-center mt-3">© Copyright by Mostafizur 2024</h6>
             </div>
         </Row>
     );

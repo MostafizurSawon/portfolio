@@ -5,13 +5,15 @@ import ProjectBar from './ProjectBar';
 
 const Design = () => {
     const [projects, setProjects] = useState([]);
+
     useEffect(() => {
         fetch('./projects.json')
-        .then(res=>res.json())
-        .then(data=>setProjects(data))
+            .then(res => res.json())
+            .then(data => setProjects(data));
     }, []);
+
     return (
-        <div id="fullstack" className="my-5 whole">
+        <div id="frontend" className="my-5 whole">
             {/* <div className="bg-dark">
                 <h2 className="text-center text-light py-3">My projects</h2>
             </div> */}
@@ -19,43 +21,33 @@ const Design = () => {
                 <ProjectBar></ProjectBar>
             </div> */}
             <Container>
-            <Row xs={1} md={2} className="mb-2 d-flex justify-content-center align-items-center gx-5 gy-5">
-                {
-                    projects.slice(5,20).map(project => (
-                    <Col project={project} key={project.key}>
-                    <div className="card mx-auto border-0 p-2 w-100">
-                        <div className="image">
-                        <img className="w-100" src={project.img} alt="" />
-                        </div>
-                        <div className="details">
-                        <div className="center">
-                            <h4>  {project.name} </h4>
-                            <p>
-                           Short Description : {project.niche}
-                            </p>
-                            {/* <p>
-                            <Button className="text-light me-3 live" variant="success" size="md"><a href={project.live}>Live Site</a></Button>
+                <Row xs={1} md={2} className="mb-2 d-flex justify-content-center align-items-center gx-5 gy-5">
+                    {projects
+                        .filter(project => project.tab === "frontend") // Add this line to filter projects
+                        
+                        .map(project => (
                             
-                            <Link to={`/projects/${project.key}`}>
-                            <Button className="banner-button text-light" variant="success" size="md">Details</Button>
-                            </Link>
-                            </p> */}
-                            <ul>
-                            <li className=""><a href={project.live}>Live </a></li>
-                            {/* <li><a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li> */}
-                            <li><a href={project.github}><i className="fa fa-github" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-
-                    </Col>
-                        )
-                    )}
-                
-            </Row>
+                            <Col project={project} key={project.key}>
+                            <Card className="w-100 mx-auto">
+                                <Card.Img variant="top" src={project.img} />
+                                <Card.Body>
+                                    <Card.Title>{project.name}</Card.Title>
+                                    <Card.Text className="text-dark">
+                                    Tech: {project.tech}
+                                    </Card.Text>
+                                    <Card.Text className="text-dark">
+                                    Description: {project.description}
+                                    </Card.Text>
+                                    <div className="d-flex ">
+                                    <a className="" href={project.liveFr}><Button variant="outline-success">Frontend Live</Button></a>
+                                    <a className="mx-2" href={project.githubF}><Button variant="outline-success">Frontend Github</Button></a>
+                                    </div>
+                                    
+                                </Card.Body>
+                                </Card>
+                            </Col>
+                        ))}
+                </Row>
             </Container>
         </div>
     );

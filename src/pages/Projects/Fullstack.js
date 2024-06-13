@@ -3,26 +3,23 @@ import { Card, Col, Button, Row, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import ProjectBar from './ProjectBar';
 
-const Projects = () => {
+const Fullstack = () => {
     const [projects, setProjects] = useState([]);
+
     useEffect(() => {
         fetch('./projects.json')
-        .then(res=>res.json())
-        .then(data=>setProjects(data))
+            .then(res => res.json())
+            .then(data => setProjects(data));
     }, []);
+
     return (
         <div id="fullstack" className="my-5 whole">
-            {/* <div className="bg-dark">
-                <h2 className="text-center text-light py-3">My projects</h2>
-            </div> */}
-            {/* <div className="my-5">
-                <ProjectBar></ProjectBar>
-            </div> */}
             <Container>
-            <Row xs={1} md={2} className="mb-2 d-flex justify-content-center align-items-center gx-5 gy-5">
-                {
-                    projects.map(project => (
-                        <Col project={project} key={project.key}>
+                <Row xs={1} md={2} className="mb-2 d-flex justify-content-center align-items-center gx-5 gy-5">
+                    {projects
+                        .filter(project => project.tab == "Fullstack")
+                        .map(project => (
+                            <Col project={project} key={project.key}>
                             <Card className="w-100 mx-auto">
                                 <Card.Img variant="top" src={project.img} />
                                 <Card.Body>
@@ -43,13 +40,11 @@ const Projects = () => {
                                 </Card.Body>
                                 </Card>
                             </Col>
-                        )
-                    )}
-                
-            </Row>
+                        ))}
+                </Row>
             </Container>
         </div>
     );
 };
 
-export default Projects;
+export default Fullstack;

@@ -1,69 +1,100 @@
 [
   {
     "key": "1",
-    "img": "./img-origin/toy-heaven.png",
-    "name": "Toy Heaven",
-    "niche": "Toy selling website",
-    "live": "https://toy-heaven.web.app/"
+    "img": "./img-origin/project.png",
+    "name": "Jokeshub",
+    "tab": "Fullstack",
+    "tech": "Django MVT , SQLite, Bootstrap etc",
+    "liveFr": "https://jokeshub.onrender.com/",
+    "liveB": "",
+    "githubF": "",
+    "githubB": "https://github.com/MostafizurSawon/jokeshub",
+    "description": "It is jokes posting website. Users can create new account, create jokes, like and share jokes. There is also a dashboard showing most liked jokes and more."
   },
   {
     "key": "2",
-    "img": "./img-origin/zeroglass.png",
-    "name": "Zero-glass",
-    "niche": "Sunglass selling website",
-    "live": "https://zeroglass.netlify.app/"
+    "img": "./img-origin/project.png",
+    "name": "CookHub",
+    "tab": "Fullstack",
+    "tech": "Django DRF , SQLite, Bootstrap etc",
+    "liveFr": "https://cookinghub.netlify.app/",
+    "liveB": "https://cookhub-django.onrender.com/",
+    "githubF": "https://github.com/MostafizurSawon/cookhub-frontend",
+    "githubB": "https://github.com/MostafizurSawon/cookhub-django",
+    "description": "It is recipe posting website. Users can create new account, create recipe. Check the github repo for more information."
   },
   {
     "key": "3",
-    "img": "./img-origin/de-tour.png",
-    "name": "De-Tour",
-    "niche": "Tour Agency Website",
-    "live": "https://de-tour-c5050.web.app/"
+    "img":"./img-origin/project.png",
+    "name": "Garden Hub",
+    "tab": "Fullstack",
+    "tech": "Django DRF , SQLite, tailwind etc",
+    "liveFr": "https://mygardenhub.netlify.app/",
+    "liveB": "https://gardenhub-django.onrender.com/",
+    "githubF": "https://github.com/MostafizurSawon/Final-showdown/tree/main/4-frontend-tailwind-assignment",
+    "githubB": "https://github.com/MostafizurSawon/gardenhub-backend",
+    "description": "It is a plant selling website. User can create account and start selling his plants. Check out github for more information."
   },
   {
     "key": "4",
     "img": "./img-origin/medic.png",
     "name": "Medic House",
-    "niche": "Hospital based website",
-    "live": "https://medic-house-edac0.web.app/"
+    "tab": "frontend",
+    "tech": "Html, Css, React , bootstrap, tailwind etc",
+    "liveFr": "https://medic-house-edac0.web.app/",
+    "githubF": "https://github.com/MostafizurSawon/medic-house-react",
+    "description": "This is Medical based website. A normal user can see all toy. He will have to login to buy them. Google and normal email/pass login method has been implemented. User can see and delete his order in dashboard after signing in. He can even share his experience by giving ratings. "
   },
   {
     "key": "5",
     "img": "./img-origin/grape.png",
     "name": "Grape School",
-    "niche": "School website",
-    "live": "https://grapes-school.netlify.app/"
+    "tab": "frontend",
+    "tech": "Html, Css, React , bootstrap etc",
+    "liveFr": "https://grapes-school.netlify.app/",
+    "githubF": "https://github.com/MostafizurSawon/grapes-heaven-react",
+    "description": "This is a website for teaching people how to grow grapes in his own land.We have various kinds of course here. It has 4 different routes. "
   },
   {
     "key": "6",
     "img": "./img-origin/biker.jpeg",
     "name": "Biker Bro",
-    "niche": "Bike website",
-    "live": "https://biker-bro.netlify.app/",
-    "github": "https://github.com/MostafizurSawon/biker-bootstrap"
+    "tab": "frontend",
+    "tech": "Html, Css , bootstrap",
+    "liveFr": "https://biker-bro.netlify.app/",
+    "githubF": "https://github.com/MostafizurSawon/biker-bootstrap",
+    "description": "This is a landing page of a website of bike. Visit github for more information. "
   },
   {
     "key": "7",
     "img": "./img-origin/nike.png",
     "name": "Nike Shoe",
-    "niche": "shoe website",
-    "live": "https://mostafizursawon.github.io/Nike-show/",
-    "github": "https://github.com/MostafizurSawon/Nike-show"
+    "tab": "frontend",
+    "tech": "Html, Css , bootstrap",
+    "liveFr": "https://mostafizursawon.github.io/Nike-show/",
+    "githubF": "https://github.com/MostafizurSawon/Nike-show",
+    "description": "This is a landing page of a website of bike. Visit github for more information. "
   },
   {
     "key": "8",
     "img": "./img-origin/panda.png",
     "name": "Panda Ecommerce",
-    "niche": "Ecommerce",
-    "live": "https://mostafizursawon.github.io/panda-commerce/",
-    "github": "https://github.com/MostafizurSawon/panda-commerce"
+    "tab": "frontend",
+    "tech": "Html, Css , bootstrap",
+    "liveFr": "https://mostafizursawon.github.io/panda-commerce/",
+    "githubF": "https://github.com/MostafizurSawon/panda-commerce",
+    "description": "This is a landing page of a website of show . Visit github for more information. "
   },
   {
     "key": "9",
-    "img": "./img-origin/lionsurf.png",
-    "name": "Lionsurf",
-    "niche": "Blog",
-    "live": "https://mostafizursawon.github.io/lionsurf/",
-    "github": "https://github.com/MostafizurSawon/lionsurf"
+    "img": "./img-origin/project.png",
+    "name": "Bechedao",
+    "tab": "Fullstack",
+    "tech": "Django DRF, PostGreSQL, Tailwind etc",
+    "liveFr": "https://bechedao.netlify.app/",
+    "liveB": "https://bechedao-backend.onrender.com/",
+    "githubF": "https://github.com/MostafizurSawon/bechedao-frontend",
+    "githubB": "https://github.com/MostafizurSawon/bechedao-backend",
+    "description": "This is a selling website. Users can create account and post their items for selling . Visit github for more information. "
   }
 ]
