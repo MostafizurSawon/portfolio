@@ -7,11 +7,14 @@ const About = () => {
              
             <Row xs={1} md={3} className="my-2 d-flex justify-content-center align-items-center gy-4">
                 <Col>
-                <h6>Hello I am Mostafizur. I have a deep interest in web development. At first I built website for fun then I took it seriosuly. I have knowledge in html, css, bootstrap, javascript, react, firebase authentication, git, github, node.js, express.js, mongodb. Its not all. I am always hungry to learn new things.</h6>
+                <h6>Hello I am Mostafizur.</h6>
 <br />
                 <h2>Summary</h2>
                 <h2 className="footer-border"></h2>
-                <p>Self-motivated,  looking for a role as a frontend web developer/junior web developer. Passionate about building first-class web applications. Aiming to be an accomplished full-stack web developer. So, Now want to work at the industry level where I can work with responsibility and can achieve the highest level. I believe under supervised seniors, I can give my utmost best for the company.</p>
+                <p>Aspiring Junior Full-Stack Developer with a strong foundation in Django and React, complemented by a
+non-CS background. Proficient in C, C++, Python, SQL, and core CS fundamentals including data structures,
+algorithms, and OOP. Eager to leverage my diverse skill set to develop efficient, scalable web applications.
+Seeking remote, onsite, or hybrid opportunities to contribute to a collaborative team and drive project success.</p>
                 
                 </Col>
                 <Col>

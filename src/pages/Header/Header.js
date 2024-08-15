@@ -47,7 +47,7 @@ const Header = () => {
                         </Nav.Link>
                         {/* <Nav.Link>
                         <NavLink  to="/resume"></NavLink> */}
-                        <a className="resume_button ms-3" href="https://drive.google.com/file/u/6/d/1oruHV2BfMVWSCA1J8POvleI4FGTVeUKJ/view" target="_blank"><i className="fas fa-cog fa-spin me-2"></i>My Resume</a>
+                        <a className="resume_button ms-3" href="https://drive.google.com/file/d/1vrgtbqQ7CP4hEuJruTThne_wVIlf6mK9/view" target="_blank"><i className="fas fa-cog fa-spin me-2"></i>My Resume</a>
                         
                         {/* </Nav.Link> */}
                         
