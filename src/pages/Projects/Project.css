@@ -2,6 +2,18 @@
   overflow-x: hidden;
 }
 
+.project-image{
+    height: 250px; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    background-color: #f9f9f9; 
+    /* scrollbar-width: none; */
+    scrollbar-width: thin;
+    scrollbar-color: #4ef26f #f0f0f0;
+}
+
 .card {
   /* position: absolute; */
   /* top: 50%;

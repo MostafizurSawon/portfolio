@@ -4,10 +4,7 @@
   background-size: cover; */
 }
 
-.skill {
-  border-bottom: 2px solid gray;
-  /* width: 100%; */
-}
+
 
 li {
   list-style-type: none;
@@ -36,3 +33,4 @@ li {
 .icon_correction {
   font-size: 1.4rem;
 }
+

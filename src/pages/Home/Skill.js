@@ -15,7 +15,7 @@ const Skill = () => {
     return (
         <div className="pb-5">
         <div>
-            <h2 className="text-center mt-5 mb-5 skill d-flex justify-content-center align-items-center">
+            <h2 className="text-center d-flex justify-content-center align-items-center">
             <img className="me-1" src={logoGear} width="50px" alt="" />
                 My Skills
             <img className="ms-1"src={logoGear} width="50px" alt="" />

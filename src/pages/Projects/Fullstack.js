@@ -21,7 +21,10 @@ const Fullstack = () => {
                         .map(project => (
                             <Col project={project} key={project.key}>
                             <Card className="w-100 mx-auto">
+                            <div className="project-image">
+                                
                                 <Card.Img variant="top" src={project.img} />
+                            </div>
                                 <Card.Body>
                                     <Card.Title>{project.name}</Card.Title>
                                     <Card.Text className="text-dark">
@@ -31,9 +34,20 @@ const Fullstack = () => {
                                     Description: {project.description}
                                     </Card.Text>
                                     <div className="d-flex ">
-                                    <a className="" href={project.liveFr}><Button variant="outline-success">Frontend Live</Button></a>
+                                    {project.liveFr && ( 
+                                        <a className="" href={project.liveFr}>
+                                            <Button variant="outline-success">Live Site</Button>
+                                        </a>
+                                    )}
+                                    {project.githubF && ( 
                                     <a className="mx-2" href={project.githubF}><Button variant="outline-success">Frontend Github</Button></a>
-                                    <a className="" href={project.liveB}><Button variant="outline-success">Backend Live</Button></a>
+                                    )}
+                                    {project.liveB && ( 
+                                        <a className="" href={project.liveB}>
+                                            <Button variant="outline-success">Backend Live</Button>
+                                        </a>
+                                    )}
+                                    
                                     <a className="mx-2" href={project.githubB}><Button variant="outline-success">Backend Github</Button></a>
                                     </div>
                                     

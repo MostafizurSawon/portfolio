@@ -1,100 +1,116 @@
 [
   {
     "key": "1",
-    "img": "./img-origin/project.png",
+    "img": "./project/recipe.png",
+    "name": "RecipeHub",
+    "tab": "Fullstack",
+    "tech": "Django DRF , SQLite, React etc",
+    "liveFr": "https://recipe-hubb.netlify.app/",
+    "liveB": "https://recipe-drf.onrender.com/",
+    "githubF": "https://github.com/MostafizurSawon/Python-react-fullstack/tree/main/react/recipehub",
+    "githubB": "https://github.com/MostafizurSawon/recipe-drf",
+    "description": "A recipe-sharing platform where users can create accounts, post recipes, and engage with others. Built using Django DRF for the backend and React for the frontend."
+  },
+  {
+    "key": "2",
+    "img": "./project/jokeshub.png",
     "name": "Jokeshub",
     "tab": "Fullstack",
     "tech": "Django MVT , SQLite, Bootstrap etc",
     "liveFr": "https://jokeshub.onrender.com/",
-    "liveB": "",
-    "githubF": "",
     "githubB": "https://github.com/MostafizurSawon/jokeshub",
-    "description": "It is jokes posting website. Users can create new account, create jokes, like and share jokes. There is also a dashboard showing most liked jokes and more."
-  },
-  {
-    "key": "2",
-    "img": "./img-origin/project.png",
-    "name": "CookHub",
-    "tab": "Fullstack",
-    "tech": "Django DRF , SQLite, Bootstrap etc",
-    "liveFr": "https://cookinghub.netlify.app/",
-    "liveB": "https://cookhub-django.onrender.com/",
-    "githubF": "https://github.com/MostafizurSawon/cookhub-frontend",
-    "githubB": "https://github.com/MostafizurSawon/cookhub-django",
-    "description": "It is recipe posting website. Users can create new account, create recipe. Check the github repo for more information."
+    "description": "A jokes posting website where users can create an account, share jokes, and engage with others through likes and shares."
   },
   {
     "key": "3",
-    "img":"./img-origin/project.png",
+    "img": "./project/gardenhub.png",
     "name": "Garden Hub",
     "tab": "Fullstack",
-    "tech": "Django DRF , SQLite, tailwind etc",
+    "tech": "Django DRF , SQLite, Tailwind etc",
     "liveFr": "https://mygardenhub.netlify.app/",
     "liveB": "https://gardenhub-django.onrender.com/",
     "githubF": "https://github.com/MostafizurSawon/Final-showdown/tree/main/4-frontend-tailwind-assignment",
     "githubB": "https://github.com/MostafizurSawon/gardenhub-backend",
-    "description": "It is a plant selling website. User can create account and start selling his plants. Check out github for more information."
+    "description": "A plant-selling platform where users can sign up and sell their plants, featuring a modern UI built with Tailwind CSS."
   },
   {
     "key": "4",
-    "img": "./img-origin/medic.png",
+    "img": "./project/medic.png",
     "name": "Medic House",
-    "tab": "frontend",
-    "tech": "Html, Css, React , bootstrap, tailwind etc",
+    "tab": "Frontend",
+    "tech": "HTML, CSS, React, Bootstrap, Tailwind etc",
     "liveFr": "https://medic-house-edac0.web.app/",
     "githubF": "https://github.com/MostafizurSawon/medic-house-react",
-    "description": "This is Medical based website. A normal user can see all toy. He will have to login to buy them. Google and normal email/pass login method has been implemented. User can see and delete his order in dashboard after signing in. He can even share his experience by giving ratings. "
+    "description": "A medical website where users can browse available services and purchase medical items after logging in."
   },
   {
     "key": "5",
-    "img": "./img-origin/grape.png",
+    "img": "./project/grape.png",
     "name": "Grape School",
-    "tab": "frontend",
-    "tech": "Html, Css, React , bootstrap etc",
+    "tab": "Frontend",
+    "tech": "HTML, CSS, React, Bootstrap etc",
     "liveFr": "https://grapes-school.netlify.app/",
     "githubF": "https://github.com/MostafizurSawon/grapes-heaven-react",
-    "description": "This is a website for teaching people how to grow grapes in his own land.We have various kinds of course here. It has 4 different routes. "
+    "description": "An educational website teaching users how to grow grapes on their land."
   },
   {
     "key": "6",
-    "img": "./img-origin/biker.jpeg",
+    "img": "./project/bike.png",
     "name": "Biker Bro",
-    "tab": "frontend",
-    "tech": "Html, Css , bootstrap",
+    "tab": "Frontend",
+    "tech": "HTML, CSS, Bootstrap",
     "liveFr": "https://biker-bro.netlify.app/",
     "githubF": "https://github.com/MostafizurSawon/biker-bootstrap",
-    "description": "This is a landing page of a website of bike. Visit github for more information. "
+    "description": "A bike-related landing page showcasing various motorcycle models."
   },
   {
     "key": "7",
-    "img": "./img-origin/nike.png",
+    "img": "./project/nike.png",
     "name": "Nike Shoe",
-    "tab": "frontend",
-    "tech": "Html, Css , bootstrap",
+    "tab": "Frontend",
+    "tech": "HTML, CSS, Bootstrap",
     "liveFr": "https://mostafizursawon.github.io/Nike-show/",
     "githubF": "https://github.com/MostafizurSawon/Nike-show",
-    "description": "This is a landing page of a website of bike. Visit github for more information. "
+    "description": "A landing page for Nike shoes displaying product highlights."
   },
   {
     "key": "8",
-    "img": "./img-origin/panda.png",
+    "img": "./project/panda.png",
     "name": "Panda Ecommerce",
-    "tab": "frontend",
-    "tech": "Html, Css , bootstrap",
+    "tab": "Frontend",
+    "tech": "HTML, CSS, Bootstrap",
     "liveFr": "https://mostafizursawon.github.io/panda-commerce/",
     "githubF": "https://github.com/MostafizurSawon/panda-commerce",
-    "description": "This is a landing page of a website of show . Visit github for more information. "
+    "description": "An e-commerce landing page showcasing products for online shopping."
   },
   {
     "key": "9",
-    "img": "./img-origin/project.png",
-    "name": "Bechedao",
+    "img": "./project/pgain.png",
+    "name": "Personal Gain",
     "tab": "Fullstack",
-    "tech": "Django DRF, PostGreSQL, Tailwind etc",
-    "liveFr": "https://bechedao.netlify.app/",
-    "liveB": "https://bechedao-backend.onrender.com/",
-    "githubF": "https://github.com/MostafizurSawon/bechedao-frontend",
-    "githubB": "https://github.com/MostafizurSawon/bechedao-backend",
-    "description": "This is a selling website. Users can create account and post their items for selling . Visit github for more information. "
+    "tech": "Django MVT, SQLite, Bootstrap etc",
+    "liveFr": "https://personal-gain.onrender.com/",
+    "githubB": "https://github.com/MostafizurSawon/personal-gain",
+    "description": "A personal productivity tracker where users can set goals, track tasks, and manage personal activities."
+  },
+  {
+    "key": "10",
+    "img": "./project/haat.png",
+    "name": "Haate Jai",
+    "tab": "Fullstack",
+    "tech": "Django MVT, SQLite, Bootstrap etc",
+    "liveFr": "https://github.com/MostafizurSawon/haateJai",
+    "githubB": "https://github.com/MostafizurSawon/haateJai",
+    "description": "A mini e-commerce website where users can browse products and purchase after creating an account."
+  },
+  {
+    "key": "11",
+    "img": "./project/event.png",
+    "name": "Event Bro",
+    "tab": "Fullstack",
+    "tech": "Django MVT, SQLite, Bootstrap etc",
+    "liveFr": "https://eventbro.onrender.com/",
+    "githubB": "https://github.com/MostafizurSawon/eventBro",
+    "description": "An event management website where users can view, book, and cancel event tickets. Organizers can create events with limited seats."
   }
 ]

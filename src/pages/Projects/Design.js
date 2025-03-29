@@ -23,13 +23,16 @@ const Design = () => {
             <Container>
                 <Row xs={1} md={2} className="mb-2 d-flex justify-content-center align-items-center gx-5 gy-5">
                     {projects
-                        .filter(project => project.tab === "frontend") // Add this line to filter projects
+                        .filter(project => project.tab === "frontend") 
                         
                         .map(project => (
                             
                             <Col project={project} key={project.key}>
                             <Card className="w-100 mx-auto">
+                            <div className="project-image">
+
                                 <Card.Img variant="top" src={project.img} />
+                            </div>
                                 <Card.Body>
                                     <Card.Title>{project.name}</Card.Title>
                                     <Card.Text className="text-dark">

@@ -42,7 +42,7 @@ const Banner = () => {
                   <h3> with backend focused.</h3> */}
                  </TextAnimation>
                 <div className="py-4">
-                <a className="resume_button" href="https://drive.google.com/file/u/6/d/1oruHV2BfMVWSCA1J8POvleI4FGTVeUKJ/view" target="_blank"><i className="fas fa-cog fa-spin me-2"></i>My Resume</a>
+                <a className="resume_button" href="https://drive.google.com/file/d/1HkEqoUAno93RCA_s_Cv9akdipmHulFVY/view" target="_blank"><i className="fas fa-cog fa-spin me-2"></i>My Resume</a>
                 </div>
                  </div>
                 </Col>
